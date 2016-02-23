@@ -1,9 +1,14 @@
 {
 	"name": "paho-client",
-	"description": "Pre reqs for the Paho JS client",
-	"dependencies": {
+	"description": "Paho JS Client",
+    "version": "1.0.1",
+	"devDependencies": {
 		"websocket": "1.x.x",
 		"node-localstorage": "0.x.x",
 		"jasmine-node": "1.11.x"
-	}
+	},
+  "license": "EPL",
+  "scripts": {
+    "test": "mvn test -Dtest.server=messagesight.demos.ibm.com -Dtest.server.port=1883 -Dtest.server.path=/ws"
+  }
 }
