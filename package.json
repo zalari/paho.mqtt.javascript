@@ -1,14 +1,18 @@
 {
-	"name": "paho-client",
+	"name": "@zalari/paho-client",
 	"description": "Paho JS Client",
-    "version": "1.0.1",
+	"version": "1.0.1",
 	"devDependencies": {
 		"websocket": "1.x.x",
 		"node-localstorage": "0.x.x",
 		"jasmine-node": "1.11.x"
 	},
-  "license": "EPL",
-  "scripts": {
-    "test": "mvn test -Dtest.server=messagesight.demos.ibm.com -Dtest.server.port=1883 -Dtest.server.path=/ws"
+	"license": "EPL",
+	"scripts": {
+		"test": "mvn test -Dtest.server=messagesight.demos.ibm.com -Dtest.server.port=1883 -Dtest.server.path=/ws"
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/zalari/paho.mqtt.javascript.git"
   }
 }
